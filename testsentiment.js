@@ -1,6 +1,19 @@
 var data = require('./data.json')
 var results = []
-var test = 'Yêu anh lắm đấy nhé, bao nhiêu tình yêu em đều trao cho anh. Nhưng sao anh lại ghét, em hận những ai bạc tình như vậy'
+var test = 
+'Khăn thương nhớ ai,'+
+'Khăn rơi xuống đất.'+
+'Khăn thương nhớ ai,'+
+'Khăn vắt lên vai.'+
+'Khăn thương nhớ ai,'+
+'Khăn chùi nước mắt.'+
+'Đèn thương nhớ ai,'+
+'Mà đèn không tắt.'+
+'Mắt thương nhớ ai,'+
+'Mắt ngủ không yên.'+
+'Đêm qua em những lo phiền,'+
+'Lo vì một nỗi không yên một bề...'
+let split_test = test.split(" ")
 var countelement = {}
 function count(arraydata) {
     array_elements = arraydata
@@ -26,13 +39,21 @@ function count(arraydata) {
 
 }
 for (var i in data) {
-    if (test.toLocaleLowerCase().indexOf(i) != -1) {
-        results.push(data[i])
+    if(i.split(" ").length > 1){           
+        if (test.toLocaleLowerCase().indexOf(i.toLocaleLowerCase()) != -1) {
+            results.push(data[i])
+        }
+    }
+    else{
+        for(var word in split_test){
+            if(i.toLocaleLowerCase() === split_test[word].toLocaleLowerCase()){
+                results.push(data[i])
+            }
+        }
     }
 }
-if (results != []) {
+if (results != [] && results.length != 0) {
     count(results)
-    console.log(results)
     let sortcount = Object.values(countelement).sort(function (a, b) { return a - b })
     var maxInNumbers = Math.max.apply(Math, sortcount);
     for (var i in countelement) {
@@ -41,4 +62,6 @@ if (results != []) {
         }
     }
 
+}else{
+    console.log("Không xác định")
 }

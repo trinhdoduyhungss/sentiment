@@ -1,174 +1,132 @@
 {
-
-    "vui vẻ":"vui",
-     
-    "tức giận":"bực",
-     
-    "lo lắng":"buồn",
-    
-    "bực mình":"bực",
-     
-    "rất sốc":"buồn",
-     
-    "hơi lo lắng":"bình thường",
-     
-    "kiêu ngạo":"vui",
-     
-    "xấu hổ":"buồn",
-     
-    "rất bối rối":"buồn",
-     
-    "chán":"buồn",
-     
-    "tự tin":"vui",
-     
-    "bị lừa":"buồn",
-     
-    "lúng túng":"buồn",
-     
-    "rất buồn":"buồn",
-     
-    "rất hạnh phúc":"vui",
-     
-    "thất vọng":"buồn",
-     
-    "vô cùng hạnh phúc":"vui",
-     
-    "nhiệt tình":"vui",
-     
-    "hứng thú":"vui",
-     
-    "xúc động":"buồn",
-     
-    "thèm muốn":"vui",
-    
-    "đố kỵ":"bực",
-     
-    "hơi xấu hổ":"bình thường",
-     
-    "tuyệt vọng":"buồn",
-     
-    "điên tiết":"bực",
-     
-    "tuyệt vời":"vui",
-     
-    "hạnh phúc":"vui",
-     
-    "sợ hãi":"buồn",
-     
-    "tổn thương":"bực",
-    
-    "khó chịu":"bực",
-     
-    "ganh tị":"bực",
-     
-    "chán ngấy":"buồn",
-     
-    "ham thích":"vui",
-    
-    "tha thiết":"buồn",
-     
-    "tiêu cực":"buồn",
-    
-    "bi quan":"buồn",
-     
-    "choáng ngợp":"vui",
-     
-    "rất sung sướng":"vui",
-     
-    "cực kỳ hứng thú":"vui",
-     
-    "lạc quan":"vui",
-     
-    "thư giãn":"vui",
-    
-    "thoải mái":"vui",
-     
-    "miễn cưỡng":"buồn",
-     
-    "buồn":"buồn",
-     
-    "kìm nén":"bực",
-     
-    "mệt mỏi":"bực",
-     
-    "ngạc nhiên":"vui",
-     
-    "nghi ngờ":"bực",
-     
-    "rất sợ hãi":"buồn",
-     
-    "căng thẳng":"bực",
-     
-    "trầm tư":"buồn",
-     
-    "nạn nhân":"buồn",
-    
-    "rất tốt":"vui",
-    
-    "bất mãn":"bực",
-
-    "bất đắc dĩ":"bực",
-
-    "ác nhân":"bực",
-    
-    "ghét":"bực",
-
-    "hận":"bực",
-
-    "yêu":"vui",
-
-    "thương":"vui",
-
+    "vui vẻ": "vui",
+    "tức giận": "bực",
+    "bực mình": "bực",
+    "rất sốc": "buồn",
+    "hơi lo lắng": "bình thường",
+    "kiêu ngạo": "vui",
+    "xấu hổ": "buồn",
+    "rất bối rối": "buồn",
+    "chán": "buồn",
+    "tự tin": "vui",
+    "bị lừa": "buồn",
+    "lúng túng": "buồn",
+    "rất buồn": "buồn",
+    "rất hạnh phúc": "vui",
+    "thất vọng": "buồn",
+    "vô cùng hạnh phúc": "vui",
+    "nhiệt tình": "vui",
+    "hứng thú": "vui",
+    "xúc động": "buồn",
+    "thèm muốn": "vui",
+    "đố kỵ": "bực",
+    "hơi xấu hổ": "bình thường",
+    "tuyệt vọng": "buồn",
+    "mất dại":"bực",
+    "sợ":"buồn",
+    "lo lắng": "buồn",
+    "lo phiền":"buồn",
+    "lo":"buồn",
+    "đợi":"buồn",
+    "điên tiết": "bực",
+    "tuyệt vời": "vui",
+    "hạnh phúc": "vui",
+    "sợ hãi": "buồn",
+    "tổn thương": "bực",
+    "khó chịu": "bực",
+    "ganh tị": "bực",
+    "chán ngấy": "buồn",
+    "ham thích": "vui",
+    "tha thiết": "buồn",
+    "tiêu cực": "buồn",
+    "bi quan": "buồn",
+    "choáng ngợp": "vui",
+    "rất sung sướng": "vui",
+    "cực kỳ hứng thú": "vui",
+    "lạc quan": "vui",
+    "thư giãn": "vui",
+    "thoải mái": "vui",
+    "miễn cưỡng": "buồn",
+    "buồn": "buồn",
+    "kìm nén": "bực",
+    "mệt mỏi": "bực",
+    "ngạc nhiên": "vui",
+    "nghi ngờ": "bực",
+    "rất sợ hãi": "buồn",
+    "căng thẳng": "bực",
+    "trầm tư": "buồn",
+    "nạn nhân": "buồn",
+    "có ai":"buồn",
+    "rất tốt": "vui",
+    "bất mãn": "bực",
+    "tạm biệt":"buồn",
+    "bất đắc dĩ": "bực",
+    "ác nhân": "bực",
+    "ghét": "bực",
+    "hận": "bực",
+    "yêu": "vui",
+    "thương": "vui",
+    "thương nhớ":"buồn",
+    "tỉnh": "buồn",
     "nhớ": "buồn",
-
-    "hãm":"bực",
-
-    "độn thổ":"buồn",
-
-    "thích":"vui",
-
-    "cười":"vui",
-
-    "oke":"vui",
-
-    "ok":"vui",
-
-    "cảm ơn":"vui",
-
+    "hãm": "bực",
+    "độn thổ": "buồn",
+    "thích": "vui",
+    "cười": "vui",
+    "oke": "vui",
+    "ok": "vui",
+    "cảm ơn": "vui",
     "mong": "buồn",
-
-    "mong muốn":"vui",
-
-    "ngại":"bình thường",
-
-    "đẹp quá":"vui",
-
-    "bị chửi":"bực",
-
-    "tức":"bực",
-
-    "sướng":"vui",
-
-    ":)":"bình thường",
-
-    ":(":"buồn",
-
-    ":D":"vui",
-
-    ":V":"vui",
-
-    ":'(":"buồn",
-
-    ":3":"bình thường",
-
-    ":/":"bực",
-
-    ":*":"vui",
-
-    "O:)":"bình thường",
-
-    ":P":"bình thường",
-
-    "-_-":"bực"
+    "mong muốn": "vui",
+    "mong được":"buồn",
+    "ngại": "bình thường",
+    "đẹp quá": "vui",
+    "bị chửi": "bực",
+    "tức": "bực",
+    "sướng": "vui",
+    ":)": "bình thường",
+    ":(": "buồn",
+    ":D": "vui",
+    ":V": "vui",
+    ":'(": "buồn",
+    ":3": "bình thường",
+    ":/": "bực",
+    ":*": "vui",
+    "O:)": "bình thường",
+    ":P": "bình thường",
+    "-_-": "bực",
+    "<3":"vui",
+    "...":"buồn",
+    "huhu":"buồn",
+    "ngon": "vui",
+    "quánh": "bực",
+    "đánh": "bực",
+    "á": "bực",
+    "còn đâu": "buồn",
+    "hy vọng": "buồn",
+    "sẽ": "buồn",
+    "Không có":"buồn",
+    "Ko":"buồn",
+    "Không":"buồn",
+    "không yên":"buồn",
+    "không mệt mỏi":"vui",
+    "Khóc":"buồn",
+    "không khóc":"vui",
+    "nước mắt":"buồn",
+    "không rơi nước mắt":"vui",
+    "đau":"buồn",
+    "khô cạn":"buồn",
+    "giúp":"vui",
+    "đành":"buồn",
+    "thô":"buồn",
+    "được":"vui",
+    "iu":"vui",
+    "tạch":"buồn",
+    "chúc":"vui",
+    "ước":"vui",
+    "nghiệp":"bực",
+    "bớt":"bực",
+    "ăn hại":"bực",
+    "tự hào":"vui",
+    "vô tình":"buồn"
 }

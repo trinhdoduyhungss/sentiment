@@ -1,0 +1,43 @@
+module.exports = {
+    bot: function() {
+       return {
+           "Yêu anh lắm đấy nhé":"vui",
+           "Bao nhiêu tình yêu em đều trao cho anh":"vui",
+           "Tại sao anh lại ghét ?":"bực",
+           "Em hận lời ong bướm, hận kẻ bạc tình":"bực",
+           "Tỉnh giấc mộng đi các ông":"buồn",
+           "Thương em là điều anh không thể ngờ":"vui",
+           "Yêu hay không yêu, không yêu hay yêu nói một lời":"vui",
+           "Chàng trai của em, em yêu anh rất nhiều":"vui",
+           "Đưa chai trà sữa mà thu tiền tui quánh đó":"bực",
+           "Mắt biếc nay còn đâu":"buồn",
+           "Hy vọng anh ấy sẽ yêu tôi":"buồn",
+           "Gặt hái được nhiều thành công":"vui",
+           "Cả một bầu trời đáng iu":"vui",
+           "Nhảy chung hông mấy bạn thi tạch":"buồn",
+           "Chúc mẹ có ngày Phụ nữ tuyệt vời":"vui",
+           "Mong mọi người giúp đỡ":"buồn",
+           "Mong được như vậy nhỉ...":"buồn",
+           "Bớt nói lại cho đỡ khẩu nghiệp nha mấy đứa":"bực",
+           "Một số hình ảnh về Báo Tường chào mừng ngày Nhà Giáo Việt Nam 20/11 của tập thể các lớp <3":"vui",
+           "Sao anh vô tình em quá anh ơi ....":"buồn",
+           "Tôi vẫn đợi tin nhắn cậu này... :( <3":"buồn",
+           "Làm gì có ai thương em?? :(":"buồn",
+           "Không yêu con A thương con B thích con C bồ con D nhưng trong lòng vẫn còn con A nhưng con A bồ anh E nên đành yêu con D":"buồn",
+           "Không hiểu sao thích tấm này ghê??":"vui",
+           "Thật đáng sợ":"buồn",
+           "Tạm biệt các em":"buồn",
+           "Nhớ lắm cái thời vô lo vô nghĩ hồn nhiên vui tươi này...":"buồn",
+           "Ước sáng thức dậy thấy mình ở nơi xa, không mệt mỏi suy nghĩ... ":"vui",
+           "Câu chuyện kinh dị...tháng 8 phải nhập học":"buồn",
+           "Sao nuôi mãi mà không lớn vậy em":"buồn",
+           "Mạnh dạn lên sẽ có ny nha cm":"buồn",
+           "Quả cover khét lẹt":"Không xác định",
+           "Quán nét bây giờ trống lắm ...":"buồn",
+           "Nếu như em đợi anh, anh sẽ hoành tráng đến đón em":"buồn",
+           "Chơi cái trò mất dại":"buồn",
+           "Tự hào quá Việt Nam ơi":"vui",
+           "Trùm ăn hại":"bực"
+       }
+    }
+}
