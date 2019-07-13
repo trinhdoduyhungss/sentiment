@@ -34,5 +34,5 @@
 # Results
 ``` [bực, bực, vui] ```
 - ==> label: bực : 67%
-#Check accuracy of module
+# Check accuracy of module
 - With 37 sentence for test ( data_test.js ), the accuracy is 0.92.
