@@ -30,9 +30,9 @@
 |điên tiết|bực|
 |...See more at data.json...|...See more at data.json...|
 # Example:
-``` Yêu anh lắm đấy nhé, bao nhiêu tình yêu em đều trao cho anh. Nhưng sao anh lại ghét, em hận những ai bạc tình như vậy ```
+``` Yêu anh lắm đấy nhé , bao nhiêu tình yêu em đều trao cho anh . Nhưng sao anh lại ghét , em hận những ai bạc tình như vậy , đã thế em cũng ghét cũng hờn anh luôn ```
 # Results
-``` [bực, bực, vui] ```
-- ==> label: bực : 67%
+``` [bực, bực, bực, vui, vui] ```
+- ==> label: bực : 60%
 # Check accuracy of module
-- With 37 sentence for test ( data_test.js ), the accuracy is 0.92.
+- With 57 sentence for test ( data_test.js ), the accuracy is 0.93.

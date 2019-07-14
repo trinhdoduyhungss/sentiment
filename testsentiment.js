@@ -13,6 +13,8 @@ var test =
 'Mắt ngủ không yên.'+
 'Đêm qua em những lo phiền,'+
 'Lo vì một nỗi không yên một bề...'
+test = test.replace(/[.*+?!${},]/g, " ")
+console.log(test)
 let split_test = test.split(" ")
 var countelement = {}
 function count(arraydata) {
@@ -54,6 +56,7 @@ for (var i in data) {
 }
 if (results != [] && results.length != 0) {
     count(results)
+    console.log(results)
     let sortcount = Object.values(countelement).sort(function (a, b) { return a - b })
     var maxInNumbers = Math.max.apply(Math, sortcount);
     for (var i in countelement) {
