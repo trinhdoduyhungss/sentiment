@@ -1,6 +1,6 @@
-var data = require('./data.json')
-var results = []
-var test = 
+let data = require('./data.json')
+let results = []
+let test = 
 'Khăn thương nhớ ai,'+
 'Khăn rơi xuống đất.'+
 'Khăn thương nhớ ai,'+
@@ -16,15 +16,15 @@ var test =
 test = test.replace(/[.*+?!${},]/g, " ")
 console.log(test)
 let split_test = test.split(" ")
-var countelement = {}
+let countelement = {}
 function count(arraydata) {
     array_elements = arraydata
 
     array_elements.sort();
 
-    var current = null;
-    var cnt = 0;
-    for (var i = 0; i < array_elements.length; i++) {
+    let current = null;
+    let cnt = 0;
+    for (let i = 0; i < array_elements.length; i++) {
         if (array_elements[i] != current) {
             if (cnt > 0) {
                 countelement[current] = cnt
@@ -40,14 +40,14 @@ function count(arraydata) {
     }
 
 }
-for (var i in data) {
+for (let i in data) {
     if(i.split(" ").length > 1){           
         if (test.toLocaleLowerCase().indexOf(i.toLocaleLowerCase()) != -1) {
             results.push(data[i])
         }
     }
     else{
-        for(var word in split_test){
+        for(let word in split_test){
             if(i.toLocaleLowerCase() === split_test[word].toLocaleLowerCase()){
                 results.push(data[i])
             }
@@ -58,8 +58,8 @@ if (results != [] && results.length != 0) {
     count(results)
     console.log(results)
     let sortcount = Object.values(countelement).sort(function (a, b) { return a - b })
-    var maxInNumbers = Math.max.apply(Math, sortcount);
-    for (var i in countelement) {
+    let maxInNumbers = Math.max.apply(Math, sortcount);
+    for (let i in countelement) {
         if (countelement[i] == maxInNumbers) {
             console.log(i + " : " + String(Math.round((maxInNumbers / results.length) * 100)) + "%")
         }
